@@ -42,6 +42,12 @@ header nav {
 .fa-user{
     font-size: 25px;
     color: #a9d3d6;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.fa-user:hover{
+    color: white;
 }
 
 header nav a{
@@ -50,6 +56,11 @@ header nav a{
     color: #a9d3d6;
     font-size: 25px;
     font-weight: 500;
+    transition: all .3s;
+}
+
+header nav a:hover{
+    color: white;
 }
 
 main{
@@ -229,6 +240,34 @@ footer{
 
 .fa-bars{
     display: none;
+}
+
+.boton{
+    transition: all .3s;
+}
+
+.boton:hover{
+    background-color: #03828d;
+}
+
+.boton_inf{
+    transition: all .3s;
+}
+
+.boton_inf:hover{
+    background-color: #03828d;
+}
+
+button{
+    cursor: pointer;
+}
+
+footer .texto-informacion{
+    cursor: pointer;
+}
+
+footer .fa-brands{
+    cursor: pointer;
 }
 
 @media screen and (width <= 440px) {
